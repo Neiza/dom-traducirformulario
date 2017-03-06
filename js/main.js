@@ -14,10 +14,8 @@ function translate(){
   button.innerHTML = "Iniciar sesión"
 }
 translate();
-
 function imprimir(){
   var records = document.getElementById("record");
   records.innerHTML= "El "+ document.getElementById('inputEmail').placeholder + " ingresado es <br>"+ document.getElementById('inputEmail').value+ "<br>"+
                     " la clave ingresada es <br>"+ document.getElementById('inputPassword').value;
-
 }
